@@ -21,15 +21,22 @@ We can use a vegachart HTML tag like so:
 <vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
 ```
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/bar.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/scatter_plot.json" style="width: 100%"></vegachart>
 
-In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
 
+## About the Plot 1
 
-## Search The Data & Methods
+- The code creates a bar chart with Altair, displaying building counts by acquisition year and status. Bars are colored to represent different statuses (active, inactive, demolished), showing their distribution over time.
+- Chosen based on "Bldg Status" to visually differentiate statuses for easier interpretation.
+- Aggregated data to count buildings by acquisition year and status using count().
+- Added tooltip for detailed info (year acquired, status, count) on hover, enhancing interactivity and insights. Made chart interactive with .interactive() for clearer understanding and engagement.
 
-Below is where we can put some links to both the data and the analysis code as buttons:
+## About the Plot 2
 
+- The code generates a scatter plot with Altair, showing the relationship between building "Square Footage" and "Year Acquired." Each circle represents a building, colored by its "Bldg Status" (e.g., active, demolished).
+- Color Scheme is based on "Bldg Status" to visually differentiate statuses.
+- Added .interactive() for hover tooltip with detailed info (Agency Name, Year Acquired, Square Footage, Bldg Status), enhancing engagement and clarity.
 ```
 <div class="left">
 {% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
