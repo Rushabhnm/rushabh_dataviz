@@ -10,7 +10,7 @@ custom_js:
   - justcharts
 ---
 
-
+# DATA VISUALIZATION HOME WORK ASSIGNMENT 8
 
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/bar.json" style="width: 100%"></vegachart>
@@ -37,7 +37,7 @@ custom_js:
 
   
 <div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv" text="The Data" %}
 </div>
 
 <div class="right">
