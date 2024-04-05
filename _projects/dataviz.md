@@ -41,5 +41,5 @@ custom_js:
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/HW8.ipynb" text="The Analysis" %}
 </div>
