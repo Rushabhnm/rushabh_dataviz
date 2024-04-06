@@ -1,8 +1,8 @@
 ---
-name: Vega Lite Example Project
+name: Data Visualization Assignment 8
 tools: [Python, HTML, vega-lite]
-image: assets/pngs/cars.png
-description: This is a "showcase" project that uses vega-lite for interactive viz!
+image: assets/pngs/assignment8.png
+description: This is a visualization for Assignment 8.2 
 custom_js:
   - vega.min
   - vega-lite.min
