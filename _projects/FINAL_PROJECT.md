@@ -12,20 +12,21 @@ custom_js:
 
 # DATA VISUALIZATION FINAL PROJCT
 
+#### Dashboard 1:
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/bar.json" style="width: 100%"></vegachart>
-
+<vegachart schema-url="{{ site.baseurl }}/assets/json/dashboard1.json" style="width: 100%"></vegachart>
 
 
 #### Description of Dashboard 1:
+- combined graphs
 
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/scatter_plot.json" style="width: 100%"></vegachart>
+#### Dashboard 2:
+<vegachart schema-url="{{ site.baseurl }}/assets/json/dashboard2.json" style="width: 100%"></vegachart>
 
 
 #### Description of Dashboard 2:
 
-
+- map
   
 <div class="left">
 {% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv" text="The Data" %}
