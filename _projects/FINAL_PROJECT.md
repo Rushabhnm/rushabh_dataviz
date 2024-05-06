@@ -23,6 +23,9 @@ custom_js:
 #### Dashboard 2:
 <vegachart schema-url="{{ site.baseurl }}/assets/json/dashboard2.json" style="width: 100%"></vegachart>
 
+### ATTEMPT 1
+<vegachart schema-url="{{ site.baseurl }}/assets/json/scatter_plot.json" style="width: 100%"></vegachart>
+
 
 #### Description of Dashboard 2:
 
