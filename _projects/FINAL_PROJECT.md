@@ -1,5 +1,5 @@
 ---
-name: Data Visualization Assignment 8
+name: DATA VISUALIZATION FINAL PROJECT
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/assignment8.png
 description: This is a visualization for Assignment 8.2 
@@ -10,7 +10,7 @@ custom_js:
   - justcharts
 ---
 
-# DATA VISUALIZATION ASSIGNMENT 8
+# DATA VISUALIZATION FINAL PROJCT
 
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/bar.json" style="width: 100%"></vegachart>
