@@ -12,19 +12,10 @@ custom_js:
 
 # DATA VISUALIZATION FINAL PROJCT
 
-#### Dashboard 1:
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/dashboard1.json" style="width: 100%"></vegachart>
-
 
 #### Description of Dashboard 1:
 - combined graphs
 
-#### Dashboard 2:
-<vegachart schema-url="{{ site.baseurl }}/assets/json/dashboard2.json" style="width: 100%"></vegachart>
-
-### ATTEMPT 1
-<vegachart schema-url="{{ site.baseurl }}/assets/json/scatter_plot.json" style="width: 100%"></vegachart>
 
 
 #### Description of Dashboard 2:
@@ -36,5 +27,5 @@ custom_js:
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/Rushabhnm/rushabh_dataviz/blob/main/python_notebooks/HW8.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/Rushabhnm/rushabh_dataviz/blob/main/python_notebooks/DATA_VIZ_FINAL.ipynb" text="The Analysis" %}
 </div>
